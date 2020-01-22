@@ -41,3 +41,27 @@ _I am creating and publishing a web page to people.tamu.edu_
     - [ ] ...
 
 ## Mockups
+
+#### Layout
+![Layout](./mockups/layout.jpg)
+
+#### Header
+![Header](./mockups/header.jpg)
+
+#### Footer
+![Footer](./mockups/footer.jpg)
+
+#### Landing Page
+![Landing Page](./mockups/landing-page.jpg)
+
+#### About Me
+![About Me](./mockups/about-me.jpg)
+
+#### Professional Image
+![Professional Image](./mockups/professional-image.jpg)
+
+#### Portfolio
+![Portfolio](./mockups/portfolio.jpg)
+
+#### Service
+![Service](./mockups/service.jpg)
