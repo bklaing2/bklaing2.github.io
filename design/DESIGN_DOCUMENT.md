@@ -34,9 +34,9 @@ _I am creating and publishing a web page to people.tamu.edu_
     - [ ] [Texas A&M](https://www.tamu.edu/)
     - [ ] [Embedded Signal Processing Lab](https://jafari.tamu.edu/)
     - [ ] [tamusic club](https://stuactonline.tamu.edu/app/organization/profile/public/id/1763)
+    - [ ] [Big Event](https://bigevent.tamu.edu/)
     - [ ] [Boy Scouts](https://www.scouting.org/)
     - [ ] [deCasa](https://decasamusic.com/)
-    - [ ] ...
     - [ ] ...
     - [ ] ...
 
