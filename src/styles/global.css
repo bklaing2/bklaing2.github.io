@@ -1,0 +1,51 @@
+:root {
+  --primary: whitesmoke;
+  --secondary: red;
+  --tertiary: blue;
+  --background: #050505;
+
+  --glitch1: #74EE15;
+  --glitch2: #F000FF;
+}
+
+html {
+  background: var(--background);
+  color: var(--primary);
+
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  font-size: 1em;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  /* max-width: 750px; */
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+a {
+  color: var(--primary);
+  
+  text-decoration: none;
+}

@@ -1,0 +1,51 @@
+/* Navbar */
+.nav {
+	display: flex;
+	flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  position: sticky;
+  top: 0;
+
+  box-shadow: 25vw -1rem 2rem var(--glitch2), -25vw -1rem 2rem var(--glitch1);
+
+  background: var(--background);
+}
+
+/* Nav lists */
+.navList {
+  padding: 0 1rem;
+  margin: 0;
+
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+}
+
+.navItem {
+  display: inline-block;
+
+  padding: 0;
+  margin: 0 0.5rem;
+}
+
+.disabled {
+  color: Gray;
+}
+
+/* Nav Links */
+.link {
+  color: var(--color, Gray);
+  transition: text-shadow .5s ease-out;
+}
+
+.active {
+  text-shadow: 2px 2px 1.25px var(--glitch1), -2px -2px 1.25px var(--glitch2);
+}
+
+.link:hover {
+  --color: var(--primary);
+  text-shadow: 2px 5px 1.25px var(--glitch1), -2px -5px 1.25px var(--glitch2);
+  transition: text-shadow 1.25s ease-out;
+}

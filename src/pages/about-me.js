@@ -5,14 +5,11 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi peeps</h1>
+const AboutMe = () => (
+  <Layout currentPage={0}>
+    <SEO title="About Me" />
+    <h1>About Me</h1>
     <p>Welcome to your new Gatsby site.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
     <p>Now go build something great.</p>
     <h1>Hi peeps</h1>
     <p>Welcome to your new Gatsby site.</p>
@@ -30,4 +27,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default AboutMe
