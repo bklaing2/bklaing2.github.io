@@ -1,0 +1,72 @@
+nav {
+  background: var(--background);
+  box-shadow: 25vw -1rem 2rem var(--glitch2), -25vw -1rem 2rem var(--glitch1);
+
+  position: sticky;
+  top: 0;
+
+	display: flex;
+	flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  z-index: 1;
+}
+
+footer {
+  background: var(--background);
+  border-top: 1px solid black;
+
+  margin: 1rem;
+
+	display: flex;
+	flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+
+/* Lists */
+ul {
+  padding: 0 1rem;
+  margin: 0;
+
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+}
+
+li {
+  display: inline-block;
+
+  padding: 0;
+  margin: 0 0.5rem;
+}
+
+
+/* Links */
+a {
+  color: var(--color, var(--tertiary));
+  transition: text-shadow .5s ease-out;
+}
+
+a:hover {
+  --color: var(--primary);
+  text-shadow: 2px 5px 1.25px var(--glitch1), -2px -5px 1.25px var(--glitch2);
+  transition: text-shadow 1.25s ease-out, filter 1.25s ease-out;
+}
+
+.active {
+  text-shadow: 2px 2px 1.25px var(--glitch1), -2px -2px 1.25px var(--glitch2);
+}
+
+
+/* Others */
+h2 {
+  color: var(--primary);
+  text-shadow: none;
+}
+
+.disabled {
+  color: var(--tertiary);
+}

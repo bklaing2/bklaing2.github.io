@@ -1,0 +1,72 @@
+.image {
+  width: 50%;
+  height: auto;
+
+  border: 10px solid red;
+  border-radius: 50px;
+}
+
+.row {
+  margin: 5rem 1rem;
+  padding: 1rem;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  align-items: stretch;
+}
+
+/* https://www.w3schools.com/cssref/sel_nth-child.asp */
+.row:nth-child(even) { flex-flow: row-reverse wrap; }
+
+
+.hidden {
+  width: 0%;
+
+  font-size: 1.25em;
+
+  background: var(--tertiary);
+}
+
+.row:nth-child(odd) .hidden {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.row:nth-child(even) .hidden {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.icon {
+  width: 33%;
+  font-size: 25vw;
+}
+
+.row:nth-child(odd) .hidden { border-right: 1px solid var(--tertiary); }
+.row:nth-child(even) .hidden { border-left: 1px solid var(--tertiary); }
+
+.title {
+  width: 66%;
+
+  font-size: 4em;
+}
+
+.row:hover > .hidden { width: 66%; }
+.row:hover > .title { width: 0; }
+.row:hover > .icon { filter: drop-shadow(2px 5px 1.25px var(--glitch1)) drop-shadow(-2px -5px 1.25px var(--glitch2)); } /* https://www.w3schools.com/cssref/css3_pr_filter.asp */
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+  justify-content: center;
+  text-align: center;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  transition: width .5s ease-out, filter 1s ease-out;
+}
