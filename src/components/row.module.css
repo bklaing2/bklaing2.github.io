@@ -26,6 +26,10 @@
   font-size: 1.25em;
 
   background: var(--tertiary);
+
+  border-right: 1px solid var(--secondary);
+  border-left: 1px solid var(--secondary);
+
 }
 
 .row:nth-child(odd) .hidden {
@@ -41,9 +45,6 @@
   width: 33%;
   font-size: 25vw;
 }
-
-.row:nth-child(odd) .hidden { border-right: 1px solid var(--tertiary); }
-.row:nth-child(even) .hidden { border-left: 1px solid var(--tertiary); }
 
 .title {
   width: 66%;

@@ -46,7 +46,7 @@ li {
 
 /* Links */
 a {
-  color: var(--color, var(--tertiary));
+  color: var(--color, var(--secondary));
   transition: text-shadow .5s ease-out;
 }
 
@@ -65,8 +65,4 @@ a:hover {
 h2 {
   color: var(--primary);
   text-shadow: none;
-}
-
-.disabled {
-  color: var(--tertiary);
 }

@@ -7,7 +7,7 @@ import styles from './header-footer.module.css'
 
 let title = [
 	<Link to='/'><h2>Bryceson Laing</h2></Link>,
-	<span class={styles.disabled}>|</span>,
+	<span class='tertiary'>|</span>,
 ]
 
 let pages = [
@@ -44,9 +44,9 @@ export const Header = ({ currentPage }) => (
 // Footer
 let footerItems = [
 	...socials,
-	<span class={styles.disabled}>|</span>,
+	<span class='tertiary'>|</span>,
 	...title,
-	<span class={styles.disabled}>Thanks and Gig 'em!</span>,
+	<span class='secondary'>Thanks and Gig 'em!</span>,
 ]
 
 export const Footer = () => (
