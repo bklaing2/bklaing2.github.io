@@ -10,8 +10,8 @@
   /* https://stackoverflow.com/questions/24709915/blur-the-edges-of-an-image-or-background-image-with-css */
   box-shadow: 0 0 1rem 2rem var(--background) inset;
 
-  filter: grayscale(50%) sepia(50%);
-  transition: filter 1s ease-out;
+  /* filter: grayscale(50%) sepia(50%);
+  transition: filter 1s ease-out; */
 
   /* align-self: flex-start; */
 }
