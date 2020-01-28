@@ -16,7 +16,7 @@ const IndexPage = () => (
           Feel free to take a look around!<br/><br/>
 
           <h3>After Graduation</h3>
-          I am seeking a job in Computer Engineering or related fields. You can find more information <Link to='/professional-image/'>here</Link> about my qualifications.<br/>
+          I am seeking a job in Computer Engineering or related fields. You can find more information <Link to='/technical-skills/'>here</Link> about my qualifications.<br/>
           If you are looking to hire, I would appreciate being considered. Here's my <Link to='/resume/'>resume</Link>!<br/><br/><br/>
 
           <h2 class='secondary'>- Bryceson Laing</h2>
