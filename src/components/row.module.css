@@ -17,28 +17,28 @@
 }
 
 /* https://www.w3schools.com/cssref/sel_nth-child.asp */
-.row:nth-child(even) { flex-flow: row-reverse wrap; }
+.row:nth-child(odd) { flex-flow: row-reverse wrap; }
 
 
 .hidden {
   width: 0%;
-
-  font-size: 1.25em;
 
   background: var(--tertiary);
 
   border-right: 1px solid var(--secondary);
   border-left: 1px solid var(--secondary);
 
+  font-size: 1.25em;
 }
 
 .row:nth-child(odd) .hidden {
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-.row:nth-child(even) .hidden {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+}
+
+.row:nth-child(even) .hidden {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .icon {
@@ -52,9 +52,9 @@
   font-size: 4em;
 }
 
-.row:hover > .hidden { width: 66%; }
-.row:hover > .title { width: 0; }
-.row:hover > .icon { filter: drop-shadow(2px 5px 1.25px var(--glitch1)) drop-shadow(-2px -5px 1.25px var(--glitch2)); } /* https://www.w3schools.com/cssref/css3_pr_filter.asp */
+.icon:hover ~ .hidden, .hidden:hover { width: 66%; }
+.icon:hover ~ .title, .hidden:hover ~ .title { width: 0; }
+.icon:hover, .hidden:hover ~ .icon { filter: drop-shadow(2px 5px 1.25px var(--glitch1)) drop-shadow(-2px -5px 1.25px var(--glitch2)); } /* https://www.w3schools.com/cssref/css3_pr_filter.asp */
 
 
 .container {
