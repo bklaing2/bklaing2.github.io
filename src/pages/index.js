@@ -11,7 +11,7 @@ const IndexPage = () => (
       <div class='container' style={{flexDirection: 'row'}}>
         <div style={{width: '50%', alignItems: 'left', padding: '1rem'}}>
           <h1>Howdy!</h1>
-          I am a Computer Engineering student at <a href='https://www.tamu.edu/'>Texas A&amp;M Univeristy</a>.<br/>
+          I am a Computer Engineering student at <a href='https://www.tamu.edu/'>Texas A&amp;M University</a>.<br/>
           This website is a personal project of mine. I wanted to learn some web development, and it was important to me that the end result be something meaningful.<br/><br/>
           Feel free to take a look around!<br/><br/>
 

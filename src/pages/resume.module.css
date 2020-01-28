@@ -1,0 +1,19 @@
+.headshot {
+  /* https://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size */
+  background-image: url('../images/headshot.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 33%;
+  height: 0;
+  padding-top: 44%; /* (img-height / img-width × container-width): (4032 / 3024 × 33) */
+
+  /* https://stackoverflow.com/questions/24709915/blur-the-edges-of-an-image-or-background-image-with-css */
+  box-shadow: 0 0 1rem 2rem var(--background) inset;
+
+  filter: grayscale(50%) sepia(50%);
+  transition: filter 1s ease-out;
+}
+
+.headshot:hover {
+  filter: grayscale(0%) sepia(0%);
+}
