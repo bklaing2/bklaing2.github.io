@@ -46,17 +46,18 @@ footer {
 /* Links */
 a {
   color: var(--color, var(--secondary));
-  transition: text-shadow .5s ease-out;
+  transition: text-shadow .5s ease-out, color .5s ease-in;
 }
 
 a:hover {
-  --color: var(--primary);
-  text-shadow: 2px 5px 1.25px var(--glitch1), -2px -5px 1.25px var(--glitch2);
-  transition: text-shadow 1.25s ease-out, filter 1.25s ease-out;
+  --color: rgba(0, 0, 0, 0);
+  text-shadow: 4px 1px var(--glitch1), -4px -1px var(--glitch2);
+  transition: text-shadow 1s ease-out, color .5s ease-in;
 }
 
 .active {
-  text-shadow: 2px 2px 1.25px var(--glitch1), -2px -2px 1.25px var(--glitch2);
+  --color: rgba(0, 0, 0, 0);
+  text-shadow: 1px 1px var(--glitch1), -1px -1px var(--glitch2);
 }
 
 

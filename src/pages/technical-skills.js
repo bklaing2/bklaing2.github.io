@@ -55,11 +55,11 @@ const ProfessionalImage = () => (
         </div>
       </div>
 
-      <iframe src="/resume-bryceson-laing.pdf"
+      {/* <iframe src="/resume-bryceson-laing.pdf"
         allowtransparency="true"
         // style={{ width: '50%', height: 'auto', border: 'none' }}>
         style={{ width: '50%', height: '100%', minHeight: 500, border: 'none', alignSelf: 'center' }}>
-      </iframe>
+      </iframe> */}
     </div>
   </Layout>
 )
