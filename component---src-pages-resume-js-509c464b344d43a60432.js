@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{F2CN:function(e,n,a){"use strict";a.r(n);var r=a("q1tI"),t=a.n(r),c=(a("h0Tq"),a("Bl7J"));n.default=function(){return t.a.createElement(c.a,null,t.a.createElement("iframe",{src:"../images/resume-bryceson-laing.pdf"}))}}}]);
-//# sourceMappingURL=component---src-pages-resume-js-509c464b344d43a60432.js.map
