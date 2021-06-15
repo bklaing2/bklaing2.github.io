@@ -1,0 +1,41 @@
+.headshot {
+  height: 400px;
+  width: 400px;
+  
+  
+  
+
+  border-left: 3px solid var(--glitch1);
+  border-top: 3px solid var(--glitch1);
+
+  border-right: 3px solid var(--glitch2);
+  border-bottom: 3px solid var(--glitch2);
+
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+
+
+
+  /* https://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size */
+  /* background-image: url('../images/headshot.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat; */
+  /* width: 33%; */
+  /* height: 0; */
+  /* padding-top: 44%; (img-height / img-width × container-width): (4032 / 3024 × 33) */
+
+  /* https://stackoverflow.com/questions/24709915/blur-the-edges-of-an-image-or-background-image-with-css */
+  box-shadow: 0 0 1rem 2rem var(--background) inset;
+
+  /* filter: grayscale(50%) sepia(50%); */
+  transition: filter 1s ease-out;
+}
+
+.headshot:hover {
+  filter: grayscale(0%) sepia(0%);
+}
+
+.link {
+  text-decoration-line: underline;
+  color: var(--primary);
+}
