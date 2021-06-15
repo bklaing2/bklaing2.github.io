@@ -15,7 +15,7 @@ const ProfessionalImage = () => (
         <div style={{alignItems: 'left', padding: '1rem'}}>
 
           {/* Overview */}
-          <h1>Seeking Internship</h1>
+          <h1>Seeking Entry Level Job</h1>
           I would like to participate in summer internships and jobs to apply knowledge from my education and increase my experience in the field of science and technology.<br/><br/>
 
           <h3>After Graduation</h3>

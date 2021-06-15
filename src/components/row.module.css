@@ -1,14 +1,14 @@
 .image {
   width: 50%;
-  height: auto;
+  /* height: auto; */
 
   border: 10px solid red;
   border-radius: 50px;
 }
 
 .row {
-  margin: 5rem 1rem;
-  padding: 1rem;
+  /* margin: 5rem 1rem;
+  padding: 1rem; */
 
   display: flex;
   flex-flow: row wrap;
@@ -17,7 +17,7 @@
 }
 
 /* https://www.w3schools.com/cssref/sel_nth-child.asp */
-.row:nth-child(odd) { flex-flow: row-reverse wrap; }
+/* .row:nth-child(odd) { flex-flow: row-reverse wrap; } */
 
 
 .hidden {
@@ -28,7 +28,7 @@
   border-right: 1px solid var(--secondary);
   border-left: 1px solid var(--secondary);
 
-  font-size: 1.25em;
+  font-size: 1rem;
 }
 
 .row:nth-child(odd) .hidden {
@@ -42,19 +42,19 @@
 }
 
 .icon {
-  width: 33%;
-  font-size: 25vw;
+  width: 25%;
+  font-size: 1rem;
 }
 
 .title {
   width: 66%;
 
-  font-size: 4em;
+  font-size: 1rem;
 }
 
 .icon:hover ~ .hidden, .hidden:hover { width: 66%; }
 .icon:hover ~ .title, .hidden:hover ~ .title { width: 0; }
-.icon:hover, .hidden:hover ~ .icon { filter: drop-shadow(2px 5px 1.25px var(--glitch1)) drop-shadow(-2px -5px 1.25px var(--glitch2)); } /* https://www.w3schools.com/cssref/css3_pr_filter.asp */
+/*.icon:hover, .hidden:hover ~ .icon { filter: drop-shadow(2px 5px 1.25px var(--glitch1)) drop-shadow(-2px -5px 1.25px var(--glitch2)); } /* https://www.w3schools.com/cssref/css3_pr_filter.asp */
 
 
 .container {
