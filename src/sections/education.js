@@ -23,12 +23,12 @@ export default () => (
 
     <div class={style.heading}>
       <h2 class={style.title}>{edu.degree}</h2>
-      <p class={style.subtitle}>{edu.school}</p>
+      <p class={style.subtitle}>{edu.minor} Minor</p>
     </div>
 
     <div class={style.subheading}>
-      <h3 class={style.subtitle}>{edu.minor} Minor</h3>
-      <p class={style.subtitle}>{edu.gpa}</p>
+      <h3 class={style.subtitle}>{edu.school}</h3>
+      <p class={style.subtitle}>{edu.gpa} GPA</p>
     </div>
 
   </section>

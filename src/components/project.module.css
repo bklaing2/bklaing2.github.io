@@ -1,30 +1,86 @@
 .project {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
 
-  margin-top: 2rem;
+  height: 20rem;
+
+  margin-top: 4rem;
 }
 
-.project:first-child { margin-top: 0; }
+/* .project:first-child { margin-top: 0; } */
+.project:nth-child(even) { flex-flow: row-reverse; }
+
+
+.icon {
+  font-size: 16rem;
+  margin: 2rem;
+}
+
+.icon:hover ~ .details, .details:hover { width: 100%; }
+.icon:hover ~ .heading, .details:hover ~ .heading { width: 0; }
+
 
 .heading {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
 
   width: 100%;
+  height: 100%;
 
-  margin-bottom: 0.5rem;
+  transition: width .5s ease-out, filter 1s ease-out;
 }
 
 .title {
   display: inline-block;
+  font-size: 2rem;
   color: var(--primary);
 }
 
 .subtitle {
   display: inline-block;
+  font-size: 1.5rem;
   color: var(--secondary);
+}
+
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  width: 0%;
+  height: 100%;
+
+  background-color: var(--tertiary);
+  border: 1px solid var(--tertiary);
+
+  transition: width .5s ease-out, filter 1s ease-out;
+}
+
+.project:nth-child(odd) .details {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.project:nth-child(even) .details {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+
+  width: 56rem;
 }

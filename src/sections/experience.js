@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaMobileAlt, FaClock } from 'react-icons/fa';
+import { FaMobileAlt, FaMicroscope, FaUsers } from 'react-icons/fa';
 import Section from '../components/section'
 import Project from '../components/project'
 
@@ -40,7 +40,7 @@ let research = {
       <li>Implemented the change detection algorithm on the smartwatch to detect when the user has changed activities, and log the times they were participating in certain activities, resulting in the collection of cleaner training data</li>
     </ul>
   </p>,
-  icon: <FaClock />,
+  icon: <FaMicroscope />,
 }
 
 let peerMentor = {
@@ -53,7 +53,7 @@ let peerMentor = {
       <li>Led activities that developed freshmen students' physical, emotional and social growth</li>
     </ul>
   </p>,
-  icon: <FaClock />,
+  icon: <FaUsers />,
 }
 
 
