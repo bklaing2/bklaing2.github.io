@@ -13,6 +13,20 @@ const IndexPage = () => (
   <Layout>
     <Intro />
     <Education />
+
+    <div style={{
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'center',
+
+      width: '100%',
+
+      marginTop: '16rem',
+      fontSize: '2rem',
+    }}>
+      <p>Hover over the icons to see more info!</p>
+    </div>
+
     <Experience />
     <Projects />
     {/* <Other /> */}

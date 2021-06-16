@@ -5,7 +5,7 @@ import Project from '../components/project'
 
 
 let title = 'Experience';
-let subtitle = 'Testing one two three';
+let subtitle = 'Hover over the icons to see more info!';
 
 let collegeCove = {
   title: 'Founder / App Developer',
