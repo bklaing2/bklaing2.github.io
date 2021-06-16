@@ -7,14 +7,14 @@ import style from './header-footer.module.css'
 
 let title = [
 	<Link to='/'><h1>Bryceson Laing</h1></Link>,
-	<span class='tertiary'>|</span>,
+	// <span class='tertiary'>|</span>,
 ]
 
 let pages = [
-	<Link to='/about-me/'>About Me</Link>,
-	<Link to='/technical-skills/'>Technical Skills</Link>,
-	<Link to='/portfolio/'>Portfolio</Link>,
-	<Link to='/service/'>Service</Link>,
+	// <Link to='/about-me/'>About Me</Link>,
+	// <Link to='/technical-skills/'>Technical Skills</Link>,
+	// <Link to='/portfolio/'>Portfolio</Link>,
+	// <Link to='/service/'>Service</Link>,
 ]
 
 let socials = [

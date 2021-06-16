@@ -1,7 +1,7 @@
 :root {
-  --primary: DarkSlateGray;
-  --secondary: Gray;
-  --tertiary: LightGray;
+  --primary: #015249;
+  --secondary: #57BC90;
+  --tertiary: #77C9D4;
   --background: MintCream;
 
   --glitch1: #74EE15;
@@ -19,7 +19,7 @@ html {
   color: var(--primary);
   background: var(--background);
 
-  font-family: monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 100%;
 
   -ms-text-size-adjust: 100%;

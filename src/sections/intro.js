@@ -17,7 +17,11 @@ export default () => (
 
       <div class={style.blurb}>
         <h1>Howdy!</h1>
-        <p>Howdy!</p>
+
+        <p>
+          My name is Bryceson Laing. I recently graduated from Texas A&M, and moved from Texas to Portland, OR.<br /><br />
+          I am a software engineer seeking opportunities in software and web development.
+        </p>
       </div>
     </section>
       

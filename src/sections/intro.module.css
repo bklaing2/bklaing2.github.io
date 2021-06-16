@@ -15,9 +15,14 @@
 }
 
 .blurb {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center; */
+  justify-content: center;
 
   margin-left: 8rem;
+}
+
+.blurb h1 {
+  font-size: 2rem;
+  margin-bottom: 4rem;
 }

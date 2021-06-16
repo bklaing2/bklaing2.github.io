@@ -12,6 +12,7 @@ export default ({ title, subtitle, icon, children }) => (
     <div class={style.details}>
       <div class={style.container}>
         {children}
+        {console.log(children)}
       </div>
     </div>
 

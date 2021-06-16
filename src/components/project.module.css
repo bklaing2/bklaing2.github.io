@@ -58,8 +58,11 @@
   width: 0%;
   height: 100%;
 
-  background-color: var(--tertiary);
-  border: 1px solid var(--tertiary);
+  color: var(--background);
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+
+  font-size: 1.2rem;
 
   transition: width .5s ease-out, filter 1s ease-out;
 }
