@@ -31,7 +31,7 @@ html {
 .tertiary { color: var(--tertiary); }
 
 
-a { text-decoration: none; }
+a { text-decoration: none; color: var(--secondary); }
 
 .glitch {
   color: var(--primary);

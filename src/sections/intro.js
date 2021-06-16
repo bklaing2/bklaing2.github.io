@@ -2,13 +2,13 @@ import React from 'react'
 // import Section from '../components/section'
 import Socials from '../components/socials'
 
-import style from './1-intro.module.css'
+import style from './intro.module.css'
 
 
 export default () => (
   // <Section title={title} subtitle={subtitle}>
 
-    <div class='row' style={{marginTop: '8rem'}}>
+    <section class='row' style={{marginTop: '8rem'}}>
       <div class={style.profile}>
         <img src={require('../images/headshot.jpeg')} alt='Headshot of Bryceson Laing' class={style.headshot} />
 
@@ -17,9 +17,9 @@ export default () => (
 
       <div class={style.blurb}>
         <h1>Howdy!</h1>
-        Howdy!
+        <p>Howdy!</p>
       </div>
-    </div>
+    </section>
       
   // </Section>
 )

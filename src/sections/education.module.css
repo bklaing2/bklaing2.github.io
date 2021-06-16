@@ -1,0 +1,37 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-top: 8rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  width: 100%;
+
+  border-bottom: 1px solid var(--secondary);
+}
+
+.subheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  width: 100%;
+}
+
+.title {
+  display: inline-block;
+  color: var(--primary);
+}
+
+.subtitle {
+  display: inline-block;
+  color: var(--secondary);
+}

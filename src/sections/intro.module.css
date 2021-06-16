@@ -15,10 +15,9 @@
 }
 
 .blurb {
-  /* width: 100%; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
 
   margin-left: 8rem;
-
-  /* border: 1px dashed greenyellow; */
-  
 }

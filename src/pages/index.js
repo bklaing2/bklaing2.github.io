@@ -2,18 +2,18 @@ import React from 'react'
 
 import Layout from '../components/layout'
 
-import Intro from '../sections/1-intro'
-import Experience from '../sections/2-experience'
-import Education from '../sections/3-education'
-import Projects from '../sections/4-projects'
-import Other from '../sections/5-other'
+import Intro from '../sections/intro'
+import Education from '../sections/education'
+import Experience from '../sections/experience'
+import Projects from '../sections/projects'
+import Other from '../sections/other'
 
 
 const IndexPage = () => (
   <Layout>
     <Intro />
-    <Experience />
     <Education />
+    <Experience />
     <Projects />
     <Other />
   </Layout>

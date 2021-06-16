@@ -2,11 +2,13 @@ import React from 'react'
 import { FaUniversity, FaClock } from 'react-icons/fa';
 import Section from '../components/section'
 
+import style from './education.module.css'
+
 
 let title = 'Education';
 let subtitle = 'Testing four five six';
 
-let education = {
+let edu = {
   school: 'Texas A&M University',
   location: 'College Station, Texas',
   degree: 'Bachelor of Science in Computer Engineering',
@@ -17,14 +19,17 @@ let education = {
 
 
 export default () => (
-  <Section title={title} subtitle={subtitle}>
+  <section class={style.section}>
 
-      <h3>{education.degree}</h3>
-      <h4>{education.school}</h4>
+    <div class={style.heading}>
+      <h2 class={style.title}>{edu.degree}</h2>
+      <p class={style.subtitle}>{edu.school}</p>
+    </div>
 
-      <ul>
-          <li>GPA: {education.gpa}</li>
-          <li>Minor: {education.minor}</li>
-      </ul>
-  </Section>
+    <div class={style.subheading}>
+      <h3 class={style.subtitle}>{edu.minor} Minor</h3>
+      <p class={style.subtitle}>{edu.gpa}</p>
+    </div>
+
+  </section>
 )
