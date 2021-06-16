@@ -1,8 +1,7 @@
 :root {
   --primary: DarkSlateGray;
   --secondary: Gray;
-  --tertiary: #202020;
-  /* --background: #050505; */
+  --tertiary: LightGray;
   --background: MintCream;
 
   --glitch1: #74EE15;
@@ -12,70 +11,19 @@
 * {
   padding: 0;
   margin: 0;
+
+  text-align: justify;
 }
 
 html {
-  background: var(--background);
   color: var(--primary);
+  background: var(--background);
 
-  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  /* font-family: 'Courier New', Courier, monospace; */
-  font-family: 'Andale Mono', monospace;
+  font-family: monospace;
+  font-size: 100%;
 
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-
-  font-size: 100%;
-  /* line-height: 1.6; */
-}
-
-html, body {
-  /* height: 100%;
-  overflow: hidden; */
-}
-
-.main-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: auto;
-
-  /* margin: 0 auto; */
-  /* padding-bottom: 1rem; */
-  /* max-width: 1000px; */
-
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-
-.container {
-  /* margin: 0 auto; */
-  /* padding-bottom: 1rem; */
-  /* max-width: 75%; */
-
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-
-  justify-content: center;
-
-  flex-grow: 1;
-  flex-basis: 25%;
-
-  /* border: 1px dashed greenyellow; */
-}
-
-.row {
-  margin: 1rem;
-
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: stretch;
 }
 
 .primary { color: var(--primary); }

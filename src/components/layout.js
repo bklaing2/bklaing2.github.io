@@ -3,18 +3,19 @@ import React from 'react'
 import Meta from '../components/meta'
 import {Header, Footer} from './header-footer';
 
+import styles from './layout.module.css'
 
-const Title = ({ children }) => <div class='container'><h1>{children}</h1></div>
 
 export default ({ title, heading, currentPage, children }) => (
-  <div class='main-container'>
+  <div>
     <Meta title={title} />
 
-    <Header currentPage={currentPage}/>
-
-    {heading ? <Title >{heading}</Title> : title ? <Title >{title}</Title> : null}
-    {children}
-
-    <Footer />
+    <div class={styles.screen}>
+      <div class={styles.container}>
+        <Header currentPage={currentPage}/>
+        {children}
+        <Footer />
+      </div>
+    </div>
   </div>
 )

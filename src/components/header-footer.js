@@ -1,12 +1,12 @@
-import { Link } from 'gatsby'
 import React from 'react'
+import { Link } from 'gatsby'
 import { FaFileAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
 
-import styles from './header-footer.module.css'
+import style from './header-footer.module.css'
 
 
 let title = [
-	<Link to='/'><h2>Bryceson Laing</h2></Link>,
+	<Link to='/'><h1>Bryceson Laing</h1></Link>,
 	<span class='tertiary'>|</span>,
 ]
 
@@ -23,21 +23,30 @@ let socials = [
 	<a href='https://github.com/bklaing2/'><FaGithub /></a>,
 ]
 
-const LI = ({ active, children }) => <li className={`${styles.item} ${active ? styles.active : ''}`}>{children}</li>
+const LI = ({ active, children }) =>
+	<li class={`${style.item} ${active ? style.active : ''} glitch`}>
+		{children}
+	</li>
 
 
-// Nav
+// Header
 let NAV_OFFSET = title.length
-let navItems = [...title, ...pages]
+let headerItems = [...title, ...pages]
 
 export const Header = ({ currentPage }) => (
-	<nav>
-		<ul className={styles.item}>
-			{navItems.map((item, index) => <LI active={index - NAV_OFFSET === currentPage}>{item}</LI>)}
-		</ul>
+	<div class={style.header}>
+		<div class={style.content}>
+			<nav>
+				<ul>
+					{headerItems.map((item, index) =>
+						<LI active={index - NAV_OFFSET === currentPage}>{item}</LI>
+					)}
+				</ul>
+			</nav>
 
-		<ul className={styles.item}>{socials.map((item) => <LI>{item}</LI>)}</ul>
-	</nav>
+			<ul>{socials.map((item) => <LI>{item}</LI>)}</ul>
+		</div>
+	</div>
 )
 
 
@@ -50,7 +59,7 @@ let footerItems = [
 ]
 
 export const Footer = () => (
-	<footer>
-		<ul className={styles.item}>{footerItems.map((item) => <LI>{item}</LI>)}</ul>
+	<footer class={style.footer}>
+		<ul>{footerItems.map((item) => <LI>{item}</LI>)}</ul>
 	</footer>
 )

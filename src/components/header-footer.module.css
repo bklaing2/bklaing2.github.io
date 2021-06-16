@@ -1,69 +1,39 @@
-nav {
-  background: var(--background);
-  box-shadow: 25vw -1rem 2rem var(--glitch2), -25vw -1rem 2rem var(--glitch1);
-
+.header {
   position: sticky;
   top: 0;
-  height: 150px;
+  z-index: 1;
 
-	display: flex;
+  background-color: var(--background);
+
+  border-bottom: 1px solid var(--secondary);
+}
+
+.content {
+  display: flex;
 	flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-
-  z-index: 1;
 }
 
-footer {
-  background: var(--background);
-
-  margin: 1rem;
-
-	display: flex;
+.footer {
+  display: flex;
 	flex-direction: row;
   justify-content: center;
   align-items: baseline;
+
+  background: var(--background);
 }
 
-
-/* Lists */
-.list {
-  padding: 0 1rem;
-  margin: 0;
-
-  list-style: none;
-  display: flex;
-  align-items: baseline;
-}
 
 .item {
   display: inline-block;
-
-  padding: 0;
-  margin: 0 0.5rem;
+  margin-left: 1rem;
 }
 
+.item:first-child { margin-left: 0; }
 
-/* Links */
-a {
-  color: var(--color, var(--secondary));
-  transition: text-shadow .5s ease-out, color .5s ease-in;
-}
-
-a:hover {
-  --color: rgba(0, 0, 0, 0);
-  text-shadow: 4px 1px var(--glitch1), -4px -1px var(--glitch2);
-  transition: text-shadow 1s ease-out, color .5s ease-in;
-}
 
 .active {
-  --color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
   text-shadow: 1px 1px var(--glitch1), -1px -1px var(--glitch2);
-}
-
-
-/* Others */
-h2 {
-  color: var(--primary);
-  text-shadow: none;
 }

@@ -46,6 +46,19 @@ let lyricWritingApp = {
   icon: <FaClock />,
 }
 
+let chromeExtension = {
+  title: 'Chrome Extension',
+  subtitle: 'Full stack MERN website',
+  details: <p>
+    <ul>
+      <li>Mentored over 100 freshmen students through their transition from high school to college</li>
+      <li>Assisted the College of Engineering with over 10 events concerning representation and diversity</li>
+      <li>Led activities that developed freshmen students' physical, emotional and social growth</li>
+    </ul>
+  </p>,
+  icon: <FaClock />,
+}
+
 
 export default () => (
   <Section title={title} subtitle={subtitle}>

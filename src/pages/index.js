@@ -1,6 +1,4 @@
-import { Link } from 'gatsby'
 import React from 'react'
-import indexStyles from './index.module.css'
 
 import Layout from '../components/layout'
 
