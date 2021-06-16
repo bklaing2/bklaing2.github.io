@@ -1,19 +1,25 @@
 import React from 'react'
-import { FaUniversity, FaClock } from 'react-icons/fa';
-import Section from '../components/section'
+// import Section from '../components/section'
+import Socials from '../components/socials'
 
-
-let title = 'About Me';
-let subtitle = 'Testing zero';
-
-let my = {
-  name: 'Bryceson Laing',
-  icon: <FaUniversity />,
-}
+import style from './1-intro.module.css'
 
 
 export default () => (
-  <Section title={title} subtitle={subtitle}>
-      <h3>{my.name}</h3>
-  </Section>
+  // <Section title={title} subtitle={subtitle}>
+
+    <div class='row' style={{marginTop: '8rem'}}>
+      <div class={style.profile}>
+        <img src={require('../images/headshot.jpeg')} alt='Headshot of Bryceson Laing' class={style.headshot} />
+
+        <Socials />
+      </div>
+
+      <div class={style.blurb}>
+        <h1>Howdy!</h1>
+        Howdy!
+      </div>
+    </div>
+      
+  // </Section>
 )

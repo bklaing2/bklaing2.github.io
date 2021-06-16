@@ -46,3 +46,14 @@ a { text-decoration: none; }
   /* transition: filter 1s ease-out, color .5s ease-in;
   filter: drop-shadow(2px 5px 1.25px var(--glitch1)) drop-shadow(-2px -5px 1.25px var(--glitch2)); */
 }
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}

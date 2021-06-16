@@ -1,0 +1,24 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-right: 8rem;
+  border-right: 1px solid var(--tertiary);
+}
+
+.headshot {
+  width: 32rem;
+  height: 32rem;
+
+  border-radius: 50%;
+}
+
+.blurb {
+  /* width: 100%; */
+
+  margin-left: 8rem;
+
+  /* border: 1px dashed greenyellow; */
+  
+}

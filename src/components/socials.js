@@ -6,16 +6,14 @@ import styles from './socials.module.css'
 
 
 let socials = [
-	<a href='/~bryceson_laing/resume-bryceson-laing.pdf'><FaFileAlt /></a>,
-	<a href='https://www.linkedin.com/in/brycesonlaing/'><FaLinkedin /></a>,
-	<a href='https://github.com/bklaing2/'><FaGithub /></a>,
+	<a href='/~bryceson_laing/resume-bryceson-laing.pdf' class='secondary'><FaFileAlt /></a>,
+	<a href='https://www.linkedin.com/in/brycesonlaing/' class='secondary'><FaLinkedin /></a>,
+	<a href='https://github.com/bklaing2/' class='secondary'><FaGithub /></a>,
 ]
 
 
 export default () => (
-	<div classname={styles.left}>
-		<ul className={styles.list}>
-			{socials.map((item) => <li className={styles.item}>{item}</li>)}
-		</ul>
-	</div>
+	<ul class={styles.list}>
+		{socials.map((item) => <li class={styles.item}>{item}</li>)}
+	</ul>
 )
