@@ -28,6 +28,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "public": "git filter-branch --prune-empty --subdirectory-filter public public",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
