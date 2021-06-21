@@ -6,7 +6,7 @@ import styles from './socials.module.css'
 
 
 let socials = [
-	<a href='/~bryceson_laing/resume-bryceson-laing.pdf' class='secondary'><FaFileAlt /></a>,
+	<a href='/resume_bryceson-laing.pdf' class='secondary'><FaFileAlt /></a>,
 	<a href='https://www.linkedin.com/in/brycesonlaing/' class='secondary'><FaLinkedin /></a>,
 	<a href='https://github.com/bklaing2/' class='secondary'><FaGithub /></a>,
 ]

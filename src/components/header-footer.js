@@ -18,7 +18,7 @@ let pages = [
 ]
 
 let socials = [
-	<a href='/~bryceson_laing/resume-bryceson-laing.pdf'><FaFileAlt /></a>,
+	<a href='/resume_bryceson-laing.pdf'><FaFileAlt /></a>,
 	<a href='https://www.linkedin.com/in/brycesonlaing/'><FaLinkedin /></a>,
 	<a href='https://github.com/bklaing2/'><FaGithub /></a>,
 ]
