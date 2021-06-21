@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{F2CN:function(e,n,t){"use strict";t.r(n);var r=t("q1tI"),a=t.n(r),o=(t("h0Tq"),t("Bl7J"));n.default=function(){return a.a.createElement(o.a,null,a.a.createElement("iframe",{src:"/resume_bryceson-laing.pdf",allowtransparency:"true",style:{width:"100%",minHeight:1250,border:"none",alignSelf:"center"}}))}},h0Tq:function(e,n,t){e.exports={headshot:"resume-module--headshot--1hbYB"}}}]);
+//# sourceMappingURL=component---src-pages-resume-js-f5e085409e74028818c0.js.map
